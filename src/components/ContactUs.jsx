@@ -7,7 +7,7 @@ import '../style.css';
 function ContactUs() {
     return (
         <Container className="page-container">
-            <Typography variant="h5" gutterBottom>
+            <Typography variant="h5" gutterBottom sx={{ marginTop: "100px"}}>
             Contact us
             </Typography>
             
