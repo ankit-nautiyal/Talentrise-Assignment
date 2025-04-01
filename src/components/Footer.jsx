@@ -1,11 +1,5 @@
 import React from 'react';
 import { BottomNavigation, BottomNavigationAction } from '@mui/material';
-import HomeIcon from '@mui/icons-material/Home';
-import GavelIcon from '@mui/icons-material/Gavel';
-import VerifiedUserIcon from '@mui/icons-material/VerifiedUser';
-import FolderIcon from '@mui/icons-material/Folder';
-import EventIcon from '@mui/icons-material/Event';
-import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import { useNavigate } from 'react-router-dom';
 
 function Footer() {
