@@ -4,7 +4,7 @@ import { AppBar, Toolbar, Typography, IconButton } from '@mui/material';
 
 function Header() {
     return (
-        <AppBar position="static" sx={{ backgroundColor: 'purple'}}>
+        <AppBar position="fixed" sx={{ backgroundColor: 'purple'}}>
         <Toolbar>
             <Typography variant="h6" style={{ flexGrow: 1, display: "flex" }}>
             <img src="profile-pic.jpg" alt="profile-pic" style={{height: '50px', width: '50px', marginTop:'25px', borderRadius: '50px'}}/>

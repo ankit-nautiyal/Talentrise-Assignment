@@ -5,7 +5,7 @@ import { Container, Typography, Box } from '@mui/material';
 function AboutUs() {
     return (
         <Container className="page-container">
-        <Typography variant="h5" gutterBottom>
+        <Typography variant="h5" gutterBottom sx={{ marginTop: "100px"}}>
             About Us
         </Typography>
         <Box >
@@ -22,7 +22,7 @@ function AboutUs() {
             the unique needs of each client, ensuring every project we undertake not only aligns with their vision but also elevates
             their brand in the digital space.
         </Typography> 
-        <Typography variant="body1"  sx={{fontSize: '15px'}}>
+        <Typography variant="body1"  sx={{fontSize: '15px',}}>
             At the core of our work is our mastery of modern design tools like Figma, which allows us to bring concepts to life with
             precision and style. We take pride in crafting user-centric designs that are intuitive, visually appealing, and optimized
             for performance. From creating sleek mobile applications to designing impactful websites, we aim to deliver solutions that
